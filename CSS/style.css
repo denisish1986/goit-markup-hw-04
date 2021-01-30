@@ -187,7 +187,7 @@ header {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../CSS/images/overlay.jpg);
+    url(../images/overlay.jpg);
 }
 
 .container-section-hero {
@@ -615,8 +615,7 @@ header {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-.product-section-container {
-}
+
 .portfolio-list {
   align-items: center;
 }
@@ -690,8 +689,9 @@ header {
   margin-bottom: 0px;
 }
 .portfolio-link:hover {
-  outline: border: 1px ;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  outline: border 1px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .description-item {
