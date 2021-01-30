@@ -419,25 +419,31 @@ header {
 .sosiaal-team-item {
   display: flex;
   justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+
   background-color: rgba(255, 255, 255, 0.1);
 }
 .sosiaal-team-item:not(:last-child) {
   margin-right: 10px;
 }
-.sosiaal-team-item:hover {
-  background-color: var(--accent-text-color);
-}
+
 .sosiaal-team-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  fill: var(--costumers-color);
+}
+.sosiaal-team-link:hover {
+  fill: var(--sometimes-white-text-color);
+  background-color: var(--accent-text-color);
 }
 .team-link-svg {
   width: 20px;
   height: 20px;
 }
+
 /* END OUR TEAM SECTION */
 
 /* OUR COSTUMERS SECTION */
